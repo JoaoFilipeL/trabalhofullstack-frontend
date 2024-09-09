@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de cadastro</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Formulário de Cadastro</h1>
+            <form id="formPessoa">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" name="cpf" required>
+
+                <label for="tel">Telefone</label>
+                <input type="text" id="tel" name="tel" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="message"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
